@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.traductor'
+    namespace 'com.traductor.ytvoz'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.traductor"
+        applicationId "com.traductor.ytvoz"
         minSdk 24
         targetSdk 34
         versionCode 1
@@ -28,4 +28,3 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.core:core-ktx:1.12.0'
 }
-
